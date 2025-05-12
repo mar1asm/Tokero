@@ -57,7 +57,7 @@ Tradeoffs and Architectural Notes
 
 To prioritize speed and functional coverage, some compromises were made:
 
-    Limited abstraction: Most test logic is inline rather than fully abstracted into reusable base classes.
+    Limited abstraction
 
     Hardcoded selectors: Used in certain tests for speed instead of fully encapsulating everything in page objects.
 
