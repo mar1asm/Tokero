@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using Tokero.Fixtures;
 using Tokero.Pages;
 using Tokero.TestData;
+using Tokero.TestData.Models;
 using TokeroTests.Fixtures;
 
 namespace Tokero.Tests.Exchange

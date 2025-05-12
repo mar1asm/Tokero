@@ -24,7 +24,7 @@ namespace Tokero.Tests.Home
 
             var visible = await homePage.IsKeywordVisibleAsync(expectedWord);
 
-            Assert.IsTrue(visible, $"Expected '{expectedWord}' for '{langCode}' in {browser}");
+            Assert.That(visible, $"Expected '{expectedWord}' for '{langCode}' in {browser}");
         }
     }
 }

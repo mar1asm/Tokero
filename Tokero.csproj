@@ -27,9 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Utils\" />
-    <Folder Include="TestData\" />
-    <Folder Include="Pages\" />
+    <Folder Include="Tests\API\" />
   </ItemGroup>
 
 </Project>
