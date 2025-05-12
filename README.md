@@ -14,7 +14,7 @@ This is enabled via a custom [MultiBrowserTest] attribute, which dynamically gen
 
 Exchange Page Testing
 
-The Exchange page is a core feature of the Tokero platform. The following aspects are tested:
+The following aspects are tested:
 
     The default parity selected on load is EUR.
 
