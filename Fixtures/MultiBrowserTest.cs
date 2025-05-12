@@ -10,19 +10,23 @@ public class MultiBrowserTest : NUnitAttribute, ITestBuilder
 {
     private readonly Type? _sourceType;
 
+    // Default constructor
     public MultiBrowserTest() { }
 
+    // Constructor with the source type parameter
     public MultiBrowserTest(Type sourceType)
     {
         _sourceType = sourceType;
     }
 
+    // Builds the tests from the specified method and suite, iterating through test cases and browsers.
     public IEnumerable<TestMethod> BuildFrom(IMethodInfo method, Test suite)
     {
         IEnumerable<object[]> testCases;
 
         if (_sourceType != null)
         {
+            // Get the method returning IEnumerable<TestCaseData> from the provided source type
             var methodInfo = _sourceType.GetMethods(BindingFlags.Static | BindingFlags.Public)
                 .FirstOrDefault(m => typeof(IEnumerable<TestCaseData>).IsAssignableFrom(m.ReturnType));
 
@@ -34,19 +38,23 @@ public class MultiBrowserTest : NUnitAttribute, ITestBuilder
         }
         else
         {
+            // Default to an empty test case if no source type is provided
             testCases = new List<object[]> { Array.Empty<object>() };
         }
 
         var testCaseBuilder = new NUnitTestCaseBuilder();
 
+        // Iterate through the test cases and the available browsers
         foreach (var testCaseArgs in testCases)
         {
             foreach (BrowserTypeEnum browser in Enum.GetValues(typeof(BrowserTypeEnum)))
             {
+                // Combine the browser type and the test case arguments
                 var fullParams = new object[] { browser }.Concat(testCaseArgs).ToArray();
                 var parameters = new TestCaseParameters(fullParams);
                 var testMethod = testCaseBuilder.BuildTestMethod(method, suite, parameters);
 
+                // Set the test method's name and category based on the arguments and browser
                 var argPart = testCaseArgs.Length > 0 ? $"_{string.Join("_", testCaseArgs)}" : "";
                 testMethod.Name = $"{method.Name}_{browser}{argPart}";
                 testMethod.Properties.Set(PropertyNames.Category, browser.ToString());
@@ -56,6 +64,7 @@ public class MultiBrowserTest : NUnitAttribute, ITestBuilder
         }
     }
 
+    // Extracts arguments from the source, which could be IEnumerable<TestCaseData>, IEnumerable<object[]>, or IEnumerable<object>.
     private static IEnumerable<object[]> ExtractArguments(object source)
     {
         if (source is IEnumerable<TestCaseData> testCaseData)
