@@ -22,6 +22,7 @@ namespace Tokero.Pages
         public async Task GoToAsync()
         {
             await _page.GotoAsync($"{TestConfig.BaseUrl}/{PageRoute}".TrimEnd('/'));
+            await AcceptCookiesAsync();
         }
 
         public async Task AcceptCookiesAsync()

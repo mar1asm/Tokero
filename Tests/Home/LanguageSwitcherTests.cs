@@ -19,7 +19,6 @@ namespace Tokero.Tests.Home
             var homePage = new HomePage(Page);
 
             await homePage.GoToAsync();
-            await homePage.AcceptCookiesAsync();
 
             await homePage.SelectLanguageAsync(langCode);
 
