@@ -3,6 +3,7 @@ using NUnit.Framework.Internal.Builders;
 using NUnit.Framework.Internal;
 using Tokero.Fixtures;
 using Tokero.TestData;
+using System.Reflection;
 
 [AttributeUsage(AttributeTargets.Method, AllowMultiple = false)]
 public class MultiBrowserTest : NUnitAttribute, ITestBuilder
@@ -22,12 +23,13 @@ public class MultiBrowserTest : NUnitAttribute, ITestBuilder
 
         if (_sourceType != null)
         {
-            var member = _sourceType.GetMethod(nameof(LanguageCases.LanguageTestCases));
-            if (member == null)
-                throw new InvalidOperationException($"TestCaseSource method not found in '{_sourceType.Name}'.");
+            var methodInfo = _sourceType.GetMethods(BindingFlags.Static | BindingFlags.Public)
+                .FirstOrDefault(m => typeof(IEnumerable<TestCaseData>).IsAssignableFrom(m.ReturnType));
 
-            var source = member.Invoke(null, null);
+            if (methodInfo == null)
+                throw new InvalidOperationException($"No method returning IEnumerable<TestCaseData> found in '{_sourceType.Name}'.");
 
+            var source = methodInfo.Invoke(null, null);
             testCases = ExtractArguments(source);
         }
         else
