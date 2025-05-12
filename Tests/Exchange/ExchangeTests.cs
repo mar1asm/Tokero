@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Tokero.Fixtures;
 using Tokero.Pages;
+using Tokero.TestData;
 using TokeroTests.Fixtures;
 
 namespace Tokero.Tests.Exchange
@@ -21,16 +22,15 @@ namespace Tokero.Tests.Exchange
             Assert.That(parity, Is.EqualTo("EUR"));
         }
 
-        [Test, MultiBrowserTest]
-        public async Task Exchange_SwitchParity_UpdatesTable(BrowserTypeEnum browser)
+        [MultiBrowserTest(typeof(ParitiesCases))]
+        public async Task Exchange_SwitchParity_UpdatesTable(BrowserTypeEnum browser, string parity)
         {
             var exchange = new ExchangePage(Page);
             await exchange.GoToAsync();
 
-            await exchange.SelectParityAsync("USD");
-            Assert.That(await exchange.GetSelectedParityAsync(), Is.EqualTo("USD"));
-            var a = await exchange.DataTableRows.CountAsync();
-            Assert.That(await exchange.DataTableRows.CountAsync() > 0);
+            await exchange.SelectParityAsync(parity);
+            Assert.That(await exchange.GetSelectedParityAsync(), Is.EqualTo(parity));
+            Assert.That(await exchange.DataTableRows.CountAsync(), Is.GreaterThan(0));
         }
     }
 }
