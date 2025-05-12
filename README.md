@@ -1,47 +1,63 @@
 📝 Project Overview & Test Documentation
 
-This project contains automated tests built for the Tokero platform, using Playwright for browser automation and NUnit as the test runner and framework. The goal is to validate core functionality, catch regressions, and ensure platform stability across different environments and configurations.
+This project contains automated tests built for the Tokero platform, using Playwright for browser automation and NUnit as the test framework. The goal is to validate core functionality and ensure platform stability across different environments and configurations.
 
-🔍 Main Features of the Testing Suite
-🌐 Cross-Browser Support
-
-All UI tests are designed to automatically run in three major browsers:
+All UI tests are designed to automatically run in three browsers:
 
     Chromium
 
     Firefox
 
     WebKit
+This is enabled via a custom [MultiBrowserTest] attribute, which dynamically generates test cases per browser — helping ensure consistency across rendering engines.
 
-This is enabled via a custom [MultiBrowserTest] attribute, which dynamically generates test cases for each browser. This ensures a higher level of confidence that the application behaves consistently across engines.
-🔄 Exchange Page Testing
 
-The Exchange page is a central feature of the Tokero platform. The following tests have been implemented:
+Exchange Page Testing
 
-    ✅ Ensures that the default currency parity selected on load is EUR.
+The Exchange page is a core feature of the Tokero platform. The following aspects are tested:
 
-    ✅ Allows switching between different parities (e.g., RON, USD) and verifies that:
+    The default parity selected on load is EUR.
 
-        The selected parity updates correctly in the UI.
+    Switching to another parity (e.g., RON, USD) updates:
 
-        The data table showing available coins is populated as expected.
+        The selected parity shown in the UI.
 
-🌍 Language Switching Validation
+        The data table content, confirming coin list updates correctly.
 
-Tokero supports multiple languages. A test has been added to:
 
-    ✅ Select a language (e.g., EN, RO, HU) via the language switcher.
+Language Switching
 
-    ✅ Assert that a known keyword for that language appears on the page, confirming the translation is applied.
+To ensure multilingual support works as expected:
 
-🔌 API Testing
+     Select a language (e.g., EN, RO, HU) via the language switcher.
 
-Tests are also written for backend API validation using standard HttpClient calls:
+     Verify a specific keyword appears in that language, confirming the translation is applied.
 
-    ✅ A performance test ensures that the API responds within 2 seconds, guarding against backend slowness or timeout risks.
+⚙️ API Testing
 
-🧰 Test Artifacts and Reporting
+API-level tests ensure backend services are responsive and functional:
 
-    Test output is stored in the TestResults/ folder.
+    The coin-pair price endpoint responds with status 200 OK and valid data.
 
-    Playwright trace files (ZIP archives) are generated for failed tests to allow debugging via Playwright Trace Viewer.
+    A performance test ensures the response time is under 2 seconds — helping flag backend latency issues.
+
+Test Artifacts & Reporting
+
+    Test result files are saved in the TestResults/ directory.
+
+    Playwright trace files (.zip) are generated on failure and stored under TestResults/playwright-traces/.
+
+    These can be opened with Playwright Trace Viewer for visual debugging.
+
+    Test results can also be exported to .trx and converted to HTML using tools like ReportUnit or ExtentReports.
+
+Tradeoffs and Architectural Notes
+
+To prioritize speed and functional coverage, some compromises were made:
+
+    Limited abstraction: Most test logic is inline rather than fully abstracted into reusable base classes.
+
+    Hardcoded selectors: Used in certain tests for speed instead of fully encapsulating everything in page objects.
+
+    Minimal documentation in code: While readable, comments & documentation could be improved.
+
