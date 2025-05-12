@@ -51,7 +51,7 @@ Test Artifacts & Reporting
 
     These can be opened with Playwright Trace Viewer for visual debugging.
 
-    Test results can also be exported to .trx and converted to HTML using tools like ReportUnit or ExtentReports.
+    Test results are also exported to .trx.
 
 Tradeoffs and Architectural Notes
 
