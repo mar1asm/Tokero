@@ -16,11 +16,22 @@ namespace Tokero.Pages
         protected BasePage(IPage page)
         {
             _page = page;
+            //Task.Run(() => AcceptCookiesAsync()).Wait();
         }
 
         public async Task GoToAsync()
         {
             await _page.GotoAsync($"{TestConfig.BaseUrl}/{PageRoute}".TrimEnd('/'));
         }
+
+        public async Task AcceptCookiesAsync()
+        {
+            var acceptCookiesButton = _page.Locator("button[role='button']:has-text('Accept all cookies')");
+
+            await acceptCookiesButton.WaitForAsync();
+
+            await acceptCookiesButton.ClickAsync();
+        }
+
     }
 }
