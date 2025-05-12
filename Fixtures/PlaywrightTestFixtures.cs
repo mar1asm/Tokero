@@ -2,6 +2,7 @@
 using NUnit.Framework;
 using System.Threading.Tasks;
 using Tokero.Fixtures;
+using Tokero.Pages;
 using Tokero.Utils;
 
 namespace TokeroTests.Fixtures
