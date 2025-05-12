@@ -10,7 +10,7 @@ using TokeroTests.Fixtures;
 
 namespace Tokero.Tests.Home
 {
-    public class HomeLanguageTests: PlaywrightTestFixture
+    public class LanguageSwitcherTests: PlaywrightTestFixture
     {
         [Test, MultiBrowserTest(typeof(LanguageCases))]
 

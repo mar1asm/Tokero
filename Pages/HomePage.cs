@@ -14,6 +14,8 @@ namespace Tokero.Pages
         protected override string PageRoute => ""; 
 
         public HomePage(IPage page) : base(page) { }
+
+        //TODO : Create a LanguageService for reusable language switching logic across pages
         public async Task SelectLanguageAsync(string langCode)
         {
             await _page.ClickAsync("button[class*='languageSwitcher']");
