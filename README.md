@@ -35,7 +35,7 @@ To ensure multilingual support works as expected:
      
      Note: At the time of testing, the Polish language option was not functioning correctly, resulting in a 404 error and causing 3 tests to fail. See the trace files for further details.
 
-⚙️ API Testing
+API Testing
 
 API-level tests ensure backend services are responsive and functional:
 
