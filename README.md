@@ -32,6 +32,8 @@ To ensure multilingual support works as expected:
      Select a language (e.g., EN, RO, HU) via the language switcher.
 
      Verify a specific keyword appears in that language, confirming the translation is applied.
+     
+     Note: At the time of testing, the Polish language option was not functioning correctly, resulting in a 404 error and causing 3 tests to fail. See the trace files for further details.
 
 ⚙️ API Testing
 
