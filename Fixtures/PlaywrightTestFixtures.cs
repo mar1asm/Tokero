@@ -2,6 +2,7 @@
 using NUnit.Framework;
 using System.Threading.Tasks;
 using Tokero.Fixtures;
+using Tokero.Utils;
 
 namespace TokeroTests.Fixtures
 {
@@ -13,8 +14,6 @@ namespace TokeroTests.Fixtures
         protected IPlaywright? Playwright;
         private BrowserTypeEnum _currentBrowser;
 
-        //TODO: Change this 
-        private bool _headless = false;
 
         [SetUp]
         public async Task SetUp()
@@ -26,9 +25,9 @@ namespace TokeroTests.Fixtures
 
                 Browser = _currentBrowser switch
                 {
-                    BrowserTypeEnum.Chromium => await Playwright.Chromium.LaunchAsync(new() { Headless = _headless }),
-                    BrowserTypeEnum.Firefox => await Playwright.Firefox.LaunchAsync(new() { Headless = _headless }),
-                    BrowserTypeEnum.Webkit => await Playwright.Webkit.LaunchAsync(new() { Headless = _headless }),
+                    BrowserTypeEnum.Chromium => await Playwright.Chromium.LaunchAsync(new() { Headless = TestConfig.IsHeadless, Timeout = TestConfig.DefaultTimeout }),
+                    BrowserTypeEnum.Firefox => await Playwright.Firefox.LaunchAsync(new() { Headless = TestConfig.IsHeadless, Timeout = TestConfig.DefaultTimeout }),
+                    BrowserTypeEnum.Webkit => await Playwright.Webkit.LaunchAsync(new() { Headless = TestConfig.IsHeadless, Timeout = TestConfig.DefaultTimeout }),
                     _ => throw new System.ArgumentOutOfRangeException()
                 };
 
