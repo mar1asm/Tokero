@@ -19,22 +19,22 @@ namespace TokeroTests.Fixtures
         [SetUp]
         public async Task SetUp()
         {
-            if (TestContext.CurrentContext.Test.Arguments.Length > 0)
+            _currentBrowser = TestContext.CurrentContext.Test.Arguments.FirstOrDefault(arg => arg is BrowserTypeEnum) is BrowserTypeEnum browser
+                ? browser
+                : TestConfig.DefaultBrowser;
+
+            Playwright = await Microsoft.Playwright.Playwright.CreateAsync();
+
+            Browser = _currentBrowser switch
             {
-                _currentBrowser = (BrowserTypeEnum)TestContext.CurrentContext.Test.Arguments[0];
-                Playwright = await Microsoft.Playwright.Playwright.CreateAsync();
+                BrowserTypeEnum.Chromium => await Playwright.Chromium.LaunchAsync(new() { Headless = TestConfig.IsHeadless, Timeout = TestConfig.DefaultTimeout }),
+                BrowserTypeEnum.Firefox => await Playwright.Firefox.LaunchAsync(new() { Headless = TestConfig.IsHeadless, Timeout = TestConfig.DefaultTimeout }),
+                BrowserTypeEnum.Webkit => await Playwright.Webkit.LaunchAsync(new() { Headless = TestConfig.IsHeadless, Timeout = TestConfig.DefaultTimeout }),
+                _ => throw new ArgumentOutOfRangeException()
+            };
 
-                Browser = _currentBrowser switch
-                {
-                    BrowserTypeEnum.Chromium => await Playwright.Chromium.LaunchAsync(new() { Headless = TestConfig.IsHeadless, Timeout = TestConfig.DefaultTimeout }),
-                    BrowserTypeEnum.Firefox => await Playwright.Firefox.LaunchAsync(new() { Headless = TestConfig.IsHeadless, Timeout = TestConfig.DefaultTimeout }),
-                    BrowserTypeEnum.Webkit => await Playwright.Webkit.LaunchAsync(new() { Headless = TestConfig.IsHeadless, Timeout = TestConfig.DefaultTimeout }),
-                    _ => throw new System.ArgumentOutOfRangeException()
-                };
-
-                Context = await Browser.NewContextAsync();
-                Page = await Context.NewPageAsync();
-            }
+            Context = await Browser.NewContextAsync();
+            Page = await Context.NewPageAsync();
         }
 
         [TearDown]
