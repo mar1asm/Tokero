@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="0ce88c13-641e-40e5-b4f7-dbd1e4e5f49d" name="user@DESKTOP-D9QV4M7 2025-05-12 22:31:56" runUser="DESKTOP-D9QV4M7\user" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-05-12T22:31:56.3187459+03:00" queuing="2025-05-12T22:31:56.3187463+03:00" start="2025-05-12T22:31:52.6994213+03:00" finish="2025-05-12T22:35:33.6425532+03:00" />
+  <TestSettings name="default" id="f029e310-3eda-4feb-b22e-7861b2e4db93">
+    <Deployment runDeploymentRoot="user_DESKTOP-D9QV4M7_2025-05-12_22_31_56" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="31736e03-f60d-49e7-a5c3-f59333407322" testId="423c8a16-8794-6f5e-0cfe-e864cb83ae39" testName="Exchange_SwitchParity_UpdatesTable_Firefox_RON" computerName="DESKTOP-D9QV4M7" duration="00:00:06.2483920" startTime="2025-05-12T22:32:29.5040805+03:00" endTime="2025-05-12T22:32:35.7524716+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31736e03-f60d-49e7-a5c3-f59333407322" />
+    <UnitTestResult executionId="dfbcf509-2772-4cb3-9eb0-3f34ed32403f" testId="37f2a38e-8ca0-055d-ccf9-12b212393658" testName="Exchange_SwitchParity_UpdatesTable_Firefox_USD" computerName="DESKTOP-D9QV4M7" duration="00:00:05.7164990" startTime="2025-05-12T22:32:43.1451291+03:00" endTime="2025-05-12T22:32:48.8616269+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dfbcf509-2772-4cb3-9eb0-3f34ed32403f" />
+    <UnitTestResult executionId="a1767897-f2af-436e-940a-660c498224d0" testId="7034a68f-9513-ed1e-007d-b789ad651834" testName="Exchange_SwitchParity_UpdatesTable_Webkit_EUR" computerName="DESKTOP-D9QV4M7" duration="00:00:03.8556500" startTime="2025-05-12T22:32:21.9699034+03:00" endTime="2025-05-12T22:32:25.8255526+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1767897-f2af-436e-940a-660c498224d0" />
+    <UnitTestResult executionId="44148a65-52d0-4d33-b84c-0de777efa0ca" testId="01bca673-8f36-24c7-0534-7e076a35af25" testName="Exchange_SwitchParity_UpdatesTable_Firefox_USDC" computerName="DESKTOP-D9QV4M7" duration="00:00:06.5975840" startTime="2025-05-12T22:32:56.5415015+03:00" endTime="2025-05-12T22:33:03.1390848+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44148a65-52d0-4d33-b84c-0de777efa0ca" />
+    <UnitTestResult executionId="bab12a59-d929-4767-9340-ba434feb78c7" testId="066c68b8-1f61-dbbc-6566-52619510a9a1" testName="LanguageSwitch_ShowsExpectedWord_Chromium_TR_satın" computerName="DESKTOP-D9QV4M7" duration="00:00:06.3087260" startTime="2025-05-12T22:34:46.7758193+03:00" endTime="2025-05-12T22:34:53.0845449+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bab12a59-d929-4767-9340-ba434feb78c7" />
+    <UnitTestResult executionId="1e24d3b9-e930-4aae-af23-7681789beba0" testId="8fa031ef-65ed-c275-8c6e-efd758cd25f0" testName="Exchange_SwitchParity_UpdatesTable_Webkit_USDC" computerName="DESKTOP-D9QV4M7" duration="00:00:03.5406540" startTime="2025-05-12T22:33:03.1391241+03:00" endTime="2025-05-12T22:33:06.6797776+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e24d3b9-e930-4aae-af23-7681789beba0" />
+    <UnitTestResult executionId="dc9cef80-e5f7-4fb3-b72f-6bd55ca7cf5f" testId="c9fa4082-ebdb-ff12-51b8-9bee4c00c2e3" testName="LanguageSwitch_ShowsExpectedWord_Firefox_PL_kupować" computerName="DESKTOP-D9QV4M7" duration="00:00:08.4192920" startTime="2025-05-12T22:34:31.2806177+03:00" endTime="2025-05-12T22:34:39.6999097+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc9cef80-e5f7-4fb3-b72f-6bd55ca7cf5f">
+      <Output>
+        <ErrorInfo>
+          <Message>  Expected 'kupować' for 'PL' in Firefox&#xD;
+  Expected: True&#xD;
+  But was:  False&#xD;
+</Message>
+          <StackTrace>   at Tokero.Tests.Home.LanguageSwitcherTests.LanguageSwitch_ShowsExpectedWord(BrowserTypeEnum browser, String langCode, String expectedWord) in C:\Users\user\source\repos\Tokero\Tokero\Tokero\Tests\Home\LanguageSwitcherTests.cs:line 31&#xD;
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()&#xD;
+   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)&#xD;
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)&#xD;
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)&#xD;
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)&#xD;
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.&lt;&gt;c__DisplayClass1_0.&lt;Execute&gt;b__0()&#xD;
+   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)&#xD;
+
+1)    at Tokero.Tests.Home.LanguageSwitcherTests.LanguageSwitch_ShowsExpectedWord(BrowserTypeEnum browser, String langCode, String expectedWord) in C:\Users\user\source\repos\Tokero\Tokero\Tokero\Tests\Home\LanguageSwitcherTests.cs:line 31&#xD;
+
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="307cd988-66b1-41b7-bfb9-0e0e202c0bd1" testId="06591285-9bc9-036c-289f-5d9822a564b9" testName="Exchange_DefaultParityIsEUR_Chromium" computerName="DESKTOP-D9QV4M7" duration="00:00:05.2516550" startTime="2025-05-12T22:31:57.6802141+03:00" endTime="2025-05-12T22:32:02.9318686+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="307cd988-66b1-41b7-bfb9-0e0e202c0bd1" />
+    <UnitTestResult executionId="66baa44d-1cbd-4e14-bd5d-e3f10aba6b3a" testId="a40d1bee-a1d4-e3f9-31a5-646bf8381490" testName="Exchange_SwitchParity_UpdatesTable_Chromium_USDC" computerName="DESKTOP-D9QV4M7" duration="00:00:03.8641340" startTime="2025-05-12T22:32:52.6773256+03:00" endTime="2025-05-12T22:32:56.5414594+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66baa44d-1cbd-4e14-bd5d-e3f10aba6b3a" />
+    <UnitTestResult executionId="a2a11cde-686f-4485-9272-80263b5ca8be" testId="b24f53dd-be6a-96be-c520-ce4300e722dd" testName="Exchange_SwitchParity_UpdatesTable_Chromium_RON" computerName="DESKTOP-D9QV4M7" duration="00:00:03.6778690" startTime="2025-05-12T22:32:25.8261773+03:00" endTime="2025-05-12T22:32:29.5040457+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2a11cde-686f-4485-9272-80263b5ca8be" />
+    <UnitTestResult executionId="7bf0c784-bc30-4b1d-bc65-0ab24867480a" testId="0d2152c8-4573-ae56-c15b-62cd72cf71f0" testName="LanguageSwitch_ShowsExpectedWord_Webkit_RO_Cumpără" computerName="DESKTOP-D9QV4M7" duration="00:00:09.6341690" startTime="2025-05-12T22:33:23.7950786+03:00" endTime="2025-05-12T22:33:33.4292475+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7bf0c784-bc30-4b1d-bc65-0ab24867480a" />
+    <UnitTestResult executionId="cc537de3-aecf-44b7-a428-453458a46678" testId="235991fa-834c-62ff-b022-63e866377982" testName="LanguageSwitch_ShowsExpectedWord_Firefox_EN_Buy" computerName="DESKTOP-D9QV4M7" duration="00:00:08.5923960" startTime="2025-05-12T22:35:19.0876539+03:00" endTime="2025-05-12T22:35:27.6800500+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc537de3-aecf-44b7-a428-453458a46678" />
+    <UnitTestResult executionId="9bb9ff1c-6277-486f-8ee4-e61b02636aa5" testId="43ebe27d-a069-4be9-5554-4fe57012c78f" testName="Exchange_SwitchParity_UpdatesTable_Webkit_RON" computerName="DESKTOP-D9QV4M7" duration="00:00:03.6234140" startTime="2025-05-12T22:32:35.7525229+03:00" endTime="2025-05-12T22:32:39.3759357+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9bb9ff1c-6277-486f-8ee4-e61b02636aa5" />
+    <UnitTestResult executionId="39a3cac9-3501-405f-9cae-5d525579f564" testId="09311b12-c69c-d706-9d4f-8df33272b058" testName="LanguageSwitch_ShowsExpectedWord_Webkit_FR_Achète" computerName="DESKTOP-D9QV4M7" duration="00:00:08.9015940" startTime="2025-05-12T22:33:50.9570563+03:00" endTime="2025-05-12T22:33:59.8586495+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39a3cac9-3501-405f-9cae-5d525579f564" />
+    <UnitTestResult executionId="3c757e7d-3452-48f2-94ba-550339e4865b" testId="a8e56581-e4e0-ad82-1d26-bf768eebcbef" testName="LanguageSwitch_ShowsExpectedWord_Webkit_IT_Compra" computerName="DESKTOP-D9QV4M7" duration="00:00:08.7939650" startTime="2025-05-12T22:34:16.5210030+03:00" endTime="2025-05-12T22:34:25.3149672+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c757e7d-3452-48f2-94ba-550339e4865b" />
+    <UnitTestResult executionId="cb60e075-0f49-4922-be1c-09cc520e3c18" testId="e24fa90d-24b5-213c-971d-1eb88b103d49" testName="LanguageSwitch_ShowsExpectedWord_Webkit_PL_kupować" computerName="DESKTOP-D9QV4M7" duration="00:00:07.0756830" startTime="2025-05-12T22:34:39.6999363+03:00" endTime="2025-05-12T22:34:46.7756183+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb60e075-0f49-4922-be1c-09cc520e3c18">
+      <Output>
+        <ErrorInfo>
+          <Message>  Expected 'kupować' for 'PL' in Webkit&#xD;
+  Expected: True&#xD;
+  But was:  False&#xD;
+</Message>
+          <StackTrace>   at Tokero.Tests.Home.LanguageSwitcherTests.LanguageSwitch_ShowsExpectedWord(BrowserTypeEnum browser, String langCode, String expectedWord) in C:\Users\user\source\repos\Tokero\Tokero\Tokero\Tests\Home\LanguageSwitcherTests.cs:line 31&#xD;
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()&#xD;
+   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)&#xD;
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)&#xD;
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)&#xD;
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)&#xD;
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.&lt;&gt;c__DisplayClass1_0.&lt;Execute&gt;b__0()&#xD;
+   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)&#xD;
+
+1)    at Tokero.Tests.Home.LanguageSwitcherTests.LanguageSwitch_ShowsExpectedWord(BrowserTypeEnum browser, String langCode, String expectedWord) in C:\Users\user\source\repos\Tokero\Tokero\Tokero\Tests\Home\LanguageSwitcherTests.cs:line 31&#xD;
+
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b368b6a2-4b18-4d04-a533-f7e3ebb144a2" testId="af70d2fd-100a-023b-abd6-86875df383d6" testName="Exchange_DefaultParityIsEUR_Webkit" computerName="DESKTOP-D9QV4M7" duration="00:00:03.2747520" startTime="2025-05-12T22:32:08.6354131+03:00" endTime="2025-05-12T22:32:11.9101642+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b368b6a2-4b18-4d04-a533-f7e3ebb144a2" />
+    <UnitTestResult executionId="914c8b3c-3288-4797-824b-cf15ea0fc166" testId="9e418ef5-bf78-a7ab-242c-23148deea336" testName="Exchange_DefaultParityIsEUR_Firefox" computerName="DESKTOP-D9QV4M7" duration="00:00:05.7034640" startTime="2025-05-12T22:32:02.9319061+03:00" endTime="2025-05-12T22:32:08.6353693+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="914c8b3c-3288-4797-824b-cf15ea0fc166" />
+    <UnitTestResult executionId="838b8915-22c1-46a3-89ae-3759816e8e22" testId="fa50495c-21d7-2ef1-807d-2eaccc334390" testName="Exchange_SwitchParity_UpdatesTable_Webkit_USD" computerName="DESKTOP-D9QV4M7" duration="00:00:03.8156240" startTime="2025-05-12T22:32:48.8616747+03:00" endTime="2025-05-12T22:32:52.6772981+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="838b8915-22c1-46a3-89ae-3759816e8e22" />
+    <UnitTestResult executionId="15186c21-6100-4a7b-bdb4-92faf4d2668c" testId="d32b93af-e8f5-a6a2-5d14-d8ac2d59cde1" testName="LanguageSwitch_ShowsExpectedWord_Chromium_IT_Compra" computerName="DESKTOP-D9QV4M7" duration="00:00:06.6589320" startTime="2025-05-12T22:33:59.8586855+03:00" endTime="2025-05-12T22:34:06.5176172+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15186c21-6100-4a7b-bdb4-92faf4d2668c" />
+    <UnitTestResult executionId="4330c3bf-d9a8-423a-bc95-e2c837bb9731" testId="e8f8e56c-d53d-99e8-8485-72a467eb28c4" testName="Exchange_SwitchParity_UpdatesTable_Firefox_EUR" computerName="DESKTOP-D9QV4M7" duration="00:00:05.8137500" startTime="2025-05-12T22:32:16.1561201+03:00" endTime="2025-05-12T22:32:21.9698696+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4330c3bf-d9a8-423a-bc95-e2c837bb9731" />
+    <UnitTestResult executionId="8977f118-8cbb-4841-9758-99bdf340155b" testId="b3871a27-1e3c-69c8-c4e9-7751f8cdad1b" testName="CoinPairPricesApi_PerformanceTest" computerName="DESKTOP-D9QV4M7" duration="00:00:02.7651110" startTime="2025-05-12T22:31:53.5025318+03:00" endTime="2025-05-12T22:31:56.2675356+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8977f118-8cbb-4841-9758-99bdf340155b" />
+    <UnitTestResult executionId="6bd1ef95-6a1d-46e4-ac50-25f32e8a1975" testId="e34873ef-1f64-c78f-ca65-7f3ea39d8460" testName="LanguageSwitch_ShowsExpectedWord_Firefox_TR_satın" computerName="DESKTOP-D9QV4M7" duration="00:00:10.8043990" startTime="2025-05-12T22:34:53.0846050+03:00" endTime="2025-05-12T22:35:03.8890041+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6bd1ef95-6a1d-46e4-ac50-25f32e8a1975" />
+    <UnitTestResult executionId="6e058a70-85fe-4e80-a814-696d2cc0fab1" testId="ef904664-7ec7-0c87-1fd5-d74023e61085" testName="LanguageSwitch_ShowsExpectedWord_Chromium_EN_Buy" computerName="DESKTOP-D9QV4M7" duration="00:00:05.2954440" startTime="2025-05-12T22:35:13.7921520+03:00" endTime="2025-05-12T22:35:19.0875955+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e058a70-85fe-4e80-a814-696d2cc0fab1" />
+    <UnitTestResult executionId="e268f427-7a90-4ba8-907e-cf6a4fdf3f5b" testId="683b97d5-dd84-d4f7-55a5-bc6b2a9b5f57" testName="LanguageSwitch_ShowsExpectedWord_Firefox_IT_Compra" computerName="DESKTOP-D9QV4M7" duration="00:00:10.0032850" startTime="2025-05-12T22:34:06.5176790+03:00" endTime="2025-05-12T22:34:16.5209634+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e268f427-7a90-4ba8-907e-cf6a4fdf3f5b" />
+    <UnitTestResult executionId="36e43021-c5aa-461b-b925-e9ec1627cfa9" testId="b7c9818b-8d84-504f-d311-cdc2b90e9da4" testName="Exchange_SwitchParity_UpdatesTable_Chromium_USD" computerName="DESKTOP-D9QV4M7" duration="00:00:03.7691160" startTime="2025-05-12T22:32:39.3759723+03:00" endTime="2025-05-12T22:32:43.1450874+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36e43021-c5aa-461b-b925-e9ec1627cfa9" />
+    <UnitTestResult executionId="192ab4f4-2c99-4859-b1b5-44182a7c245b" testId="98f3d79a-9681-8cec-f76f-167afc1e2015" testName="LanguageSwitch_ShowsExpectedWord_Firefox_FR_Achète" computerName="DESKTOP-D9QV4M7" duration="00:00:10.7402810" startTime="2025-05-12T22:33:40.2167487+03:00" endTime="2025-05-12T22:33:50.9570290+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="192ab4f4-2c99-4859-b1b5-44182a7c245b" />
+    <UnitTestResult executionId="d046be12-2433-474d-8b0e-a11e68525f69" testId="9c310c8d-2ac6-32fb-d29d-034f052e2a7d" testName="LanguageSwitch_ShowsExpectedWord_Chromium_PL_kupować" computerName="DESKTOP-D9QV4M7" duration="00:00:05.9652560" startTime="2025-05-12T22:34:25.3151029+03:00" endTime="2025-05-12T22:34:31.2803588+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d046be12-2433-474d-8b0e-a11e68525f69">
+      <Output>
+        <ErrorInfo>
+          <Message>  Expected 'kupować' for 'PL' in Chromium&#xD;
+  Expected: True&#xD;
+  But was:  False&#xD;
+</Message>
+          <StackTrace>   at Tokero.Tests.Home.LanguageSwitcherTests.LanguageSwitch_ShowsExpectedWord(BrowserTypeEnum browser, String langCode, String expectedWord) in C:\Users\user\source\repos\Tokero\Tokero\Tokero\Tests\Home\LanguageSwitcherTests.cs:line 31&#xD;
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()&#xD;
+   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)&#xD;
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)&#xD;
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)&#xD;
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)&#xD;
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.&lt;&gt;c__DisplayClass1_0.&lt;Execute&gt;b__0()&#xD;
+   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)&#xD;
+
+1)    at Tokero.Tests.Home.LanguageSwitcherTests.LanguageSwitch_ShowsExpectedWord(BrowserTypeEnum browser, String langCode, String expectedWord) in C:\Users\user\source\repos\Tokero\Tokero\Tokero\Tests\Home\LanguageSwitcherTests.cs:line 31&#xD;
+
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c8712937-5967-4cec-87fe-014b6692dcfb" testId="486ab25d-9b2f-6b39-0379-5c2e569d1227" testName="LanguageSwitch_ShowsExpectedWord_Firefox_RO_Cumpără" computerName="DESKTOP-D9QV4M7" duration="00:00:10.8432580" startTime="2025-05-12T22:33:12.9517930+03:00" endTime="2025-05-12T22:33:23.7950503+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8712937-5967-4cec-87fe-014b6692dcfb" />
+    <UnitTestResult executionId="9d1d7b48-6de9-4d6c-8d95-f69a434cdfaa" testId="1d6e12af-9f2c-2d95-613d-e966245bdbad" testName="LanguageSwitch_ShowsExpectedWord_Webkit_TR_satın" computerName="DESKTOP-D9QV4M7" duration="00:00:09.9030890" startTime="2025-05-12T22:35:03.8890295+03:00" endTime="2025-05-12T22:35:13.7921176+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d1d7b48-6de9-4d6c-8d95-f69a434cdfaa" />
+    <UnitTestResult executionId="107fdedb-9a6d-411a-8c7a-fbd945b41400" testId="baf5966b-e2f7-32f8-5c72-d40cb0c8cdb4" testName="LanguageSwitch_ShowsExpectedWord_Chromium_FR_Achète" computerName="DESKTOP-D9QV4M7" duration="00:00:06.7874070" startTime="2025-05-12T22:33:33.4292904+03:00" endTime="2025-05-12T22:33:40.2166971+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="107fdedb-9a6d-411a-8c7a-fbd945b41400" />
+    <UnitTestResult executionId="0ddf224c-af78-4190-a201-15f307e2844c" testId="5946c581-b539-b149-c81a-eb07d9f112ed" testName="LanguageSwitch_ShowsExpectedWord_Webkit_EN_Buy" computerName="DESKTOP-D9QV4M7" duration="00:00:05.8779210" startTime="2025-05-12T22:35:27.6800801+03:00" endTime="2025-05-12T22:35:33.5580003+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ddf224c-af78-4190-a201-15f307e2844c" />
+    <UnitTestResult executionId="14fec1ba-2b08-4eac-98b6-20f54eedec90" testId="220567cf-6a58-0ead-427f-7fef0852eeb9" testName="Exchange_SwitchParity_UpdatesTable_Chromium_EUR" computerName="DESKTOP-D9QV4M7" duration="00:00:04.2454300" startTime="2025-05-12T22:32:11.9106378+03:00" endTime="2025-05-12T22:32:16.1560668+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14fec1ba-2b08-4eac-98b6-20f54eedec90" />
+    <UnitTestResult executionId="b4b0c542-3766-407c-ac02-6adbf2d26012" testId="3755a38b-1f3c-0e2f-7c87-9a94e249de95" testName="LanguageSwitch_ShowsExpectedWord_Chromium_RO_Cumpără" computerName="DESKTOP-D9QV4M7" duration="00:00:06.2716860" startTime="2025-05-12T22:33:06.6800428+03:00" endTime="2025-05-12T22:33:12.9517281+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4b0c542-3766-407c-ac02-6adbf2d26012" />
+    <UnitTestResult executionId="8bca34ad-7466-4c2e-8dca-8b72fb144e7d" testId="b9fd420b-0889-088e-38c7-9080ab432cac" testName="CoinPairPricesApi_ReturnsValidPrices" computerName="DESKTOP-D9QV4M7" duration="00:00:01.4082930" startTime="2025-05-12T22:31:56.2696115+03:00" endTime="2025-05-12T22:31:57.6779042+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8bca34ad-7466-4c2e-8dca-8b72fb144e7d" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="LanguageSwitch_ShowsExpectedWord_Webkit_PL_kupować" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="e24fa90d-24b5-213c-971d-1eb88b103d49">
+      <Execution id="cb60e075-0f49-4922-be1c-09cc520e3c18" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Home.LanguageSwitcherTests" name="LanguageSwitch_ShowsExpectedWord(Webkit,&quot;PL&quot;,&quot;kupować&quot;)" />
+    </UnitTest>
+    <UnitTest name="Exchange_SwitchParity_UpdatesTable_Webkit_RON" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="43ebe27d-a069-4be9-5554-4fe57012c78f">
+      <Execution id="9bb9ff1c-6277-486f-8ee4-e61b02636aa5" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Exchange.ExchangeTests" name="Exchange_SwitchParity_UpdatesTable(Webkit,&quot;RON&quot;)" />
+    </UnitTest>
+    <UnitTest name="LanguageSwitch_ShowsExpectedWord_Chromium_TR_satın" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="066c68b8-1f61-dbbc-6566-52619510a9a1">
+      <Execution id="bab12a59-d929-4767-9340-ba434feb78c7" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Home.LanguageSwitcherTests" name="LanguageSwitch_ShowsExpectedWord(Chromium,&quot;TR&quot;,&quot;satın&quot;)" />
+    </UnitTest>
+    <UnitTest name="LanguageSwitch_ShowsExpectedWord_Chromium_FR_Achète" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="baf5966b-e2f7-32f8-5c72-d40cb0c8cdb4">
+      <Execution id="107fdedb-9a6d-411a-8c7a-fbd945b41400" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Home.LanguageSwitcherTests" name="LanguageSwitch_ShowsExpectedWord(Chromium,&quot;FR&quot;,&quot;Achète&quot;)" />
+    </UnitTest>
+    <UnitTest name="LanguageSwitch_ShowsExpectedWord_Webkit_IT_Compra" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="a8e56581-e4e0-ad82-1d26-bf768eebcbef">
+      <Execution id="3c757e7d-3452-48f2-94ba-550339e4865b" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Home.LanguageSwitcherTests" name="LanguageSwitch_ShowsExpectedWord(Webkit,&quot;IT&quot;,&quot;Compra&quot;)" />
+    </UnitTest>
+    <UnitTest name="LanguageSwitch_ShowsExpectedWord_Chromium_RO_Cumpără" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="3755a38b-1f3c-0e2f-7c87-9a94e249de95">
+      <Execution id="b4b0c542-3766-407c-ac02-6adbf2d26012" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Home.LanguageSwitcherTests" name="LanguageSwitch_ShowsExpectedWord(Chromium,&quot;RO&quot;,&quot;Cumpără&quot;)" />
+    </UnitTest>
+    <UnitTest name="CoinPairPricesApi_ReturnsValidPrices" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="b9fd420b-0889-088e-38c7-9080ab432cac">
+      <Execution id="8bca34ad-7466-4c2e-8dca-8b72fb144e7d" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Exchange.ExchangeAPITests" name="CoinPairPricesApi_ReturnsValidPrices" />
+    </UnitTest>
+    <UnitTest name="LanguageSwitch_ShowsExpectedWord_Webkit_EN_Buy" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="5946c581-b539-b149-c81a-eb07d9f112ed">
+      <Execution id="0ddf224c-af78-4190-a201-15f307e2844c" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Home.LanguageSwitcherTests" name="LanguageSwitch_ShowsExpectedWord(Webkit,&quot;EN&quot;,&quot;Buy&quot;)" />
+    </UnitTest>
+    <UnitTest name="LanguageSwitch_ShowsExpectedWord_Firefox_TR_satın" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="e34873ef-1f64-c78f-ca65-7f3ea39d8460">
+      <Execution id="6bd1ef95-6a1d-46e4-ac50-25f32e8a1975" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Home.LanguageSwitcherTests" name="LanguageSwitch_ShowsExpectedWord(Firefox,&quot;TR&quot;,&quot;satın&quot;)" />
+    </UnitTest>
+    <UnitTest name="Exchange_SwitchParity_UpdatesTable_Webkit_USD" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="fa50495c-21d7-2ef1-807d-2eaccc334390">
+      <Execution id="838b8915-22c1-46a3-89ae-3759816e8e22" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Exchange.ExchangeTests" name="Exchange_SwitchParity_UpdatesTable(Webkit,&quot;USD&quot;)" />
+    </UnitTest>
+    <UnitTest name="LanguageSwitch_ShowsExpectedWord_Chromium_IT_Compra" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="d32b93af-e8f5-a6a2-5d14-d8ac2d59cde1">
+      <Execution id="15186c21-6100-4a7b-bdb4-92faf4d2668c" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Home.LanguageSwitcherTests" name="LanguageSwitch_ShowsExpectedWord(Chromium,&quot;IT&quot;,&quot;Compra&quot;)" />
+    </UnitTest>
+    <UnitTest name="LanguageSwitch_ShowsExpectedWord_Firefox_RO_Cumpără" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="486ab25d-9b2f-6b39-0379-5c2e569d1227">
+      <Execution id="c8712937-5967-4cec-87fe-014b6692dcfb" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Home.LanguageSwitcherTests" name="LanguageSwitch_ShowsExpectedWord(Firefox,&quot;RO&quot;,&quot;Cumpără&quot;)" />
+    </UnitTest>
+    <UnitTest name="Exchange_SwitchParity_UpdatesTable_Webkit_EUR" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="7034a68f-9513-ed1e-007d-b789ad651834">
+      <Execution id="a1767897-f2af-436e-940a-660c498224d0" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Exchange.ExchangeTests" name="Exchange_SwitchParity_UpdatesTable(Webkit,&quot;EUR&quot;)" />
+    </UnitTest>
+    <UnitTest name="Exchange_SwitchParity_UpdatesTable_Chromium_EUR" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="220567cf-6a58-0ead-427f-7fef0852eeb9">
+      <Execution id="14fec1ba-2b08-4eac-98b6-20f54eedec90" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Exchange.ExchangeTests" name="Exchange_SwitchParity_UpdatesTable(Chromium,&quot;EUR&quot;)" />
+    </UnitTest>
+    <UnitTest name="LanguageSwitch_ShowsExpectedWord_Firefox_FR_Achète" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="98f3d79a-9681-8cec-f76f-167afc1e2015">
+      <Execution id="192ab4f4-2c99-4859-b1b5-44182a7c245b" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Home.LanguageSwitcherTests" name="LanguageSwitch_ShowsExpectedWord(Firefox,&quot;FR&quot;,&quot;Achète&quot;)" />
+    </UnitTest>
+    <UnitTest name="CoinPairPricesApi_PerformanceTest" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="b3871a27-1e3c-69c8-c4e9-7751f8cdad1b">
+      <Execution id="8977f118-8cbb-4841-9758-99bdf340155b" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Exchange.ExchangeAPITests" name="CoinPairPricesApi_PerformanceTest" />
+    </UnitTest>
+    <UnitTest name="Exchange_SwitchParity_UpdatesTable_Chromium_USD" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="b7c9818b-8d84-504f-d311-cdc2b90e9da4">
+      <Execution id="36e43021-c5aa-461b-b925-e9ec1627cfa9" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Exchange.ExchangeTests" name="Exchange_SwitchParity_UpdatesTable(Chromium,&quot;USD&quot;)" />
+    </UnitTest>
+    <UnitTest name="LanguageSwitch_ShowsExpectedWord_Webkit_FR_Achète" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="09311b12-c69c-d706-9d4f-8df33272b058">
+      <Execution id="39a3cac9-3501-405f-9cae-5d525579f564" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Home.LanguageSwitcherTests" name="LanguageSwitch_ShowsExpectedWord(Webkit,&quot;FR&quot;,&quot;Achète&quot;)" />
+    </UnitTest>
+    <UnitTest name="Exchange_DefaultParityIsEUR_Chromium" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="06591285-9bc9-036c-289f-5d9822a564b9">
+      <Execution id="307cd988-66b1-41b7-bfb9-0e0e202c0bd1" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Exchange.ExchangeTests" name="Exchange_DefaultParityIsEUR(Chromium)" />
+    </UnitTest>
+    <UnitTest name="Exchange_DefaultParityIsEUR_Firefox" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="9e418ef5-bf78-a7ab-242c-23148deea336">
+      <Execution id="914c8b3c-3288-4797-824b-cf15ea0fc166" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Exchange.ExchangeTests" name="Exchange_DefaultParityIsEUR(Firefox)" />
+    </UnitTest>
+    <UnitTest name="LanguageSwitch_ShowsExpectedWord_Firefox_PL_kupować" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="c9fa4082-ebdb-ff12-51b8-9bee4c00c2e3">
+      <Execution id="dc9cef80-e5f7-4fb3-b72f-6bd55ca7cf5f" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Home.LanguageSwitcherTests" name="LanguageSwitch_ShowsExpectedWord(Firefox,&quot;PL&quot;,&quot;kupować&quot;)" />
+    </UnitTest>
+    <UnitTest name="LanguageSwitch_ShowsExpectedWord_Webkit_TR_satın" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="1d6e12af-9f2c-2d95-613d-e966245bdbad">
+      <Execution id="9d1d7b48-6de9-4d6c-8d95-f69a434cdfaa" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Home.LanguageSwitcherTests" name="LanguageSwitch_ShowsExpectedWord(Webkit,&quot;TR&quot;,&quot;satın&quot;)" />
+    </UnitTest>
+    <UnitTest name="LanguageSwitch_ShowsExpectedWord_Firefox_EN_Buy" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="235991fa-834c-62ff-b022-63e866377982">
+      <Execution id="cc537de3-aecf-44b7-a428-453458a46678" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Home.LanguageSwitcherTests" name="LanguageSwitch_ShowsExpectedWord(Firefox,&quot;EN&quot;,&quot;Buy&quot;)" />
+    </UnitTest>
+    <UnitTest name="Exchange_SwitchParity_UpdatesTable_Firefox_EUR" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="e8f8e56c-d53d-99e8-8485-72a467eb28c4">
+      <Execution id="4330c3bf-d9a8-423a-bc95-e2c837bb9731" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Exchange.ExchangeTests" name="Exchange_SwitchParity_UpdatesTable(Firefox,&quot;EUR&quot;)" />
+    </UnitTest>
+    <UnitTest name="Exchange_SwitchParity_UpdatesTable_Webkit_USDC" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="8fa031ef-65ed-c275-8c6e-efd758cd25f0">
+      <Execution id="1e24d3b9-e930-4aae-af23-7681789beba0" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Exchange.ExchangeTests" name="Exchange_SwitchParity_UpdatesTable(Webkit,&quot;USDC&quot;)" />
+    </UnitTest>
+    <UnitTest name="Exchange_SwitchParity_UpdatesTable_Chromium_USDC" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="a40d1bee-a1d4-e3f9-31a5-646bf8381490">
+      <Execution id="66baa44d-1cbd-4e14-bd5d-e3f10aba6b3a" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Exchange.ExchangeTests" name="Exchange_SwitchParity_UpdatesTable(Chromium,&quot;USDC&quot;)" />
+    </UnitTest>
+    <UnitTest name="LanguageSwitch_ShowsExpectedWord_Firefox_IT_Compra" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="683b97d5-dd84-d4f7-55a5-bc6b2a9b5f57">
+      <Execution id="e268f427-7a90-4ba8-907e-cf6a4fdf3f5b" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Home.LanguageSwitcherTests" name="LanguageSwitch_ShowsExpectedWord(Firefox,&quot;IT&quot;,&quot;Compra&quot;)" />
+    </UnitTest>
+    <UnitTest name="Exchange_DefaultParityIsEUR_Webkit" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="af70d2fd-100a-023b-abd6-86875df383d6">
+      <Execution id="b368b6a2-4b18-4d04-a533-f7e3ebb144a2" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Exchange.ExchangeTests" name="Exchange_DefaultParityIsEUR(Webkit)" />
+    </UnitTest>
+    <UnitTest name="Exchange_SwitchParity_UpdatesTable_Firefox_USD" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="37f2a38e-8ca0-055d-ccf9-12b212393658">
+      <Execution id="dfbcf509-2772-4cb3-9eb0-3f34ed32403f" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Exchange.ExchangeTests" name="Exchange_SwitchParity_UpdatesTable(Firefox,&quot;USD&quot;)" />
+    </UnitTest>
+    <UnitTest name="Exchange_SwitchParity_UpdatesTable_Chromium_RON" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="b24f53dd-be6a-96be-c520-ce4300e722dd">
+      <Execution id="a2a11cde-686f-4485-9272-80263b5ca8be" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Exchange.ExchangeTests" name="Exchange_SwitchParity_UpdatesTable(Chromium,&quot;RON&quot;)" />
+    </UnitTest>
+    <UnitTest name="Exchange_SwitchParity_UpdatesTable_Firefox_RON" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="423c8a16-8794-6f5e-0cfe-e864cb83ae39">
+      <Execution id="31736e03-f60d-49e7-a5c3-f59333407322" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Exchange.ExchangeTests" name="Exchange_SwitchParity_UpdatesTable(Firefox,&quot;RON&quot;)" />
+    </UnitTest>
+    <UnitTest name="LanguageSwitch_ShowsExpectedWord_Chromium_EN_Buy" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="ef904664-7ec7-0c87-1fd5-d74023e61085">
+      <Execution id="6e058a70-85fe-4e80-a814-696d2cc0fab1" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Home.LanguageSwitcherTests" name="LanguageSwitch_ShowsExpectedWord(Chromium,&quot;EN&quot;,&quot;Buy&quot;)" />
+    </UnitTest>
+    <UnitTest name="LanguageSwitch_ShowsExpectedWord_Webkit_RO_Cumpără" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="0d2152c8-4573-ae56-c15b-62cd72cf71f0">
+      <Execution id="7bf0c784-bc30-4b1d-bc65-0ab24867480a" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Home.LanguageSwitcherTests" name="LanguageSwitch_ShowsExpectedWord(Webkit,&quot;RO&quot;,&quot;Cumpără&quot;)" />
+    </UnitTest>
+    <UnitTest name="LanguageSwitch_ShowsExpectedWord_Chromium_PL_kupować" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="9c310c8d-2ac6-32fb-d29d-034f052e2a7d">
+      <Execution id="d046be12-2433-474d-8b0e-a11e68525f69" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Home.LanguageSwitcherTests" name="LanguageSwitch_ShowsExpectedWord(Chromium,&quot;PL&quot;,&quot;kupować&quot;)" />
+    </UnitTest>
+    <UnitTest name="Exchange_SwitchParity_UpdatesTable_Firefox_USDC" storage="c:\users\user\source\repos\tokero\tokero\tokero\bin\debug\net8.0\tokero.dll" id="01bca673-8f36-24c7-0534-7e076a35af25">
+      <Execution id="44148a65-52d0-4d33-b84c-0de777efa0ca" />
+      <TestMethod codeBase="C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tokero.Tests.Exchange.ExchangeTests" name="Exchange_SwitchParity_UpdatesTable(Firefox,&quot;USDC&quot;)" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="423c8a16-8794-6f5e-0cfe-e864cb83ae39" executionId="31736e03-f60d-49e7-a5c3-f59333407322" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37f2a38e-8ca0-055d-ccf9-12b212393658" executionId="dfbcf509-2772-4cb3-9eb0-3f34ed32403f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7034a68f-9513-ed1e-007d-b789ad651834" executionId="a1767897-f2af-436e-940a-660c498224d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01bca673-8f36-24c7-0534-7e076a35af25" executionId="44148a65-52d0-4d33-b84c-0de777efa0ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="066c68b8-1f61-dbbc-6566-52619510a9a1" executionId="bab12a59-d929-4767-9340-ba434feb78c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8fa031ef-65ed-c275-8c6e-efd758cd25f0" executionId="1e24d3b9-e930-4aae-af23-7681789beba0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9fa4082-ebdb-ff12-51b8-9bee4c00c2e3" executionId="dc9cef80-e5f7-4fb3-b72f-6bd55ca7cf5f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06591285-9bc9-036c-289f-5d9822a564b9" executionId="307cd988-66b1-41b7-bfb9-0e0e202c0bd1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a40d1bee-a1d4-e3f9-31a5-646bf8381490" executionId="66baa44d-1cbd-4e14-bd5d-e3f10aba6b3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b24f53dd-be6a-96be-c520-ce4300e722dd" executionId="a2a11cde-686f-4485-9272-80263b5ca8be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d2152c8-4573-ae56-c15b-62cd72cf71f0" executionId="7bf0c784-bc30-4b1d-bc65-0ab24867480a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="235991fa-834c-62ff-b022-63e866377982" executionId="cc537de3-aecf-44b7-a428-453458a46678" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43ebe27d-a069-4be9-5554-4fe57012c78f" executionId="9bb9ff1c-6277-486f-8ee4-e61b02636aa5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09311b12-c69c-d706-9d4f-8df33272b058" executionId="39a3cac9-3501-405f-9cae-5d525579f564" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8e56581-e4e0-ad82-1d26-bf768eebcbef" executionId="3c757e7d-3452-48f2-94ba-550339e4865b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e24fa90d-24b5-213c-971d-1eb88b103d49" executionId="cb60e075-0f49-4922-be1c-09cc520e3c18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af70d2fd-100a-023b-abd6-86875df383d6" executionId="b368b6a2-4b18-4d04-a533-f7e3ebb144a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e418ef5-bf78-a7ab-242c-23148deea336" executionId="914c8b3c-3288-4797-824b-cf15ea0fc166" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa50495c-21d7-2ef1-807d-2eaccc334390" executionId="838b8915-22c1-46a3-89ae-3759816e8e22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d32b93af-e8f5-a6a2-5d14-d8ac2d59cde1" executionId="15186c21-6100-4a7b-bdb4-92faf4d2668c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8f8e56c-d53d-99e8-8485-72a467eb28c4" executionId="4330c3bf-d9a8-423a-bc95-e2c837bb9731" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b3871a27-1e3c-69c8-c4e9-7751f8cdad1b" executionId="8977f118-8cbb-4841-9758-99bdf340155b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e34873ef-1f64-c78f-ca65-7f3ea39d8460" executionId="6bd1ef95-6a1d-46e4-ac50-25f32e8a1975" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef904664-7ec7-0c87-1fd5-d74023e61085" executionId="6e058a70-85fe-4e80-a814-696d2cc0fab1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="683b97d5-dd84-d4f7-55a5-bc6b2a9b5f57" executionId="e268f427-7a90-4ba8-907e-cf6a4fdf3f5b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7c9818b-8d84-504f-d311-cdc2b90e9da4" executionId="36e43021-c5aa-461b-b925-e9ec1627cfa9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98f3d79a-9681-8cec-f76f-167afc1e2015" executionId="192ab4f4-2c99-4859-b1b5-44182a7c245b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c310c8d-2ac6-32fb-d29d-034f052e2a7d" executionId="d046be12-2433-474d-8b0e-a11e68525f69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="486ab25d-9b2f-6b39-0379-5c2e569d1227" executionId="c8712937-5967-4cec-87fe-014b6692dcfb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d6e12af-9f2c-2d95-613d-e966245bdbad" executionId="9d1d7b48-6de9-4d6c-8d95-f69a434cdfaa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="baf5966b-e2f7-32f8-5c72-d40cb0c8cdb4" executionId="107fdedb-9a6d-411a-8c7a-fbd945b41400" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5946c581-b539-b149-c81a-eb07d9f112ed" executionId="0ddf224c-af78-4190-a201-15f307e2844c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="220567cf-6a58-0ead-427f-7fef0852eeb9" executionId="14fec1ba-2b08-4eac-98b6-20f54eedec90" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3755a38b-1f3c-0e2f-7c87-9a94e249de95" executionId="b4b0c542-3766-407c-ac02-6adbf2d26012" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b9fd420b-0889-088e-38c7-9080ab432cac" executionId="8bca34ad-7466-4c2e-8dca-8b72fb144e7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="35" executed="35" passed="32" failed="3" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.5.0.0: Test execution started&#xD;
+Running all tests in C:\Users\user\source\repos\Tokero\Tokero\Tokero\bin\Debug\net8.0\Tokero.dll&#xD;
+   NUnit3TestExecutor discovered 35 of 35 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.5.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

@@ -20,6 +20,7 @@ namespace TokeroTests.Fixtures
         [SetUp]
         public async Task SetUp()
         {
+
             _currentBrowser = TestContext.CurrentContext.Test.Arguments.FirstOrDefault(arg => arg is BrowserTypeEnum) is BrowserTypeEnum browser
                 ? browser
                 : TestConfig.DefaultBrowser;
@@ -38,12 +39,33 @@ namespace TokeroTests.Fixtures
             // Create a new browser context and page for each test.
             Context = await Browser.NewContextAsync();
             Page = await Context.NewPageAsync();
+
+            await Context.Tracing.StartAsync(new()
+            {
+                Title = $"{TestContext.CurrentContext.Test.ClassName}.{TestContext.CurrentContext.Test.Name}",
+                Screenshots = true,
+                Snapshots = true,
+                Sources = true
+            });
         }
 
         // Closes the browser and disposes of Playwright resources.
         [TearDown]
         public async Task TearDown()
         {
+            //Record a trace only when the test fails.
+            var failed = TestContext.CurrentContext.Result.Outcome == NUnit.Framework.Interfaces.ResultState.Error
+            || TestContext.CurrentContext.Result.Outcome == NUnit.Framework.Interfaces.ResultState.Failure;
+
+            await Context.Tracing.StopAsync(new()
+            {
+                Path = failed ? Path.Combine(
+                    Directory.GetCurrentDirectory(),
+                    "TestResults",
+                    $"{TestContext.CurrentContext.Test.ClassName}.{TestContext.CurrentContext.Test.Name}.zip"
+                    ) : null
+            });
+
             // Close the browser and dispose Playwright resources.
             await Browser?.CloseAsync();
             Playwright?.Dispose();
